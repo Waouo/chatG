@@ -1,0 +1,10 @@
+{
+  "extensionsToTreatAsEsm": [".ts"],
+  "modulePathIgnorePatterns": ["__manually__", "__utilities__", "__mocks__"],
+  "preset": "ts-jest",
+  "rootDir": "./",
+  "modulePaths": ["<rootDir>"],
+  "moduleNameMapper": {},
+  "setupFilesAfterEnv": ["<rootDir>/src/__test__/setupTests.ts", "jest-extended/all"],
+  "testEnvironment": "node"
+}
